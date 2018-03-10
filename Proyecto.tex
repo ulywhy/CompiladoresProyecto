@@ -1,0 +1,117 @@
+
+%Begin Preambulo
+\documentclass[12pt,letterpaper,openright]{article}
+%---------------------------------------------------------------------------
+%Packages
+%Paquete para matematicas
+ \usepackage{amsmath}
+%Paquete para la codificacion de simbolos
+\usepackage[utf8]{inputenc}
+%Paquete para los comentarios
+\usepackage{comment}
+%Paquete para el idioma de las etiquetas que latex mostrara en el documento
+\usepackage[spanish]{babel}
+%Paquete para bibliografía
+\usepackage{cite} 
+%Paquete espacios entre titulos
+\usepackage{titlesec}
+%Paquete para imagenes
+\usepackage{graphicx} % graficos
+ \graphicspath{ {images/} }%path de imagenes
+%Paquete para ver vinculos
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Herramientas para Analizador.},
+    bookmarks=true,
+    %pdfpagemode=FullScreen,
+}
+%paquete enumerados referencias
+\usepackage{enumerate} 
+%Encambezados
+%Paquete para emcabezados
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\begin{picture}(0,0) \put(-56.7,0){\includegraphics[width=20mm]{images/FACUING.png}} \end{picture}}
+\chead{Universidad Autónoma del estado de México.\\ Valle de México.}
+%Share\LaTeX
+\lhead{\begin{picture}(0,0) \put(0,0){\includegraphics[width=20mm]{images/UAEM.jpg}} \end{picture}}
+\cfoot{Ingeniería en Computación.}
+\rfoot{Pagina \thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+%---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+\title{\rule{14cm}{0.1mm}\\ Compiladores \\ }
+\author{Noé Vásquez Godínez  \\ Ulises Rodrigo Osnaya   
+       \rule{14cm}{0.1mm}
+       }
+\date{7 Marzo 2018}
+                 %izquierda  arriba          abajo   zquierda
+                 
+\titlespacing{\section}{1pc}{1ex plus .1ex minus 1ex}{1pc}
+
+%End Preambulo 
+%---------------------------------------------------------------------------
+%---------------------------------------------------------------------------
+\begin{document}
+	\begin{titlepage}
+		\maketitle
+		\begin{figure}[h]
+		%\caption{Example of a parametric plot ($\sin (x), \cos(x), x$)}
+		\includegraphics[scale=2]{logo.jpg}
+		\centering
+		\end{figure}
+		\center Realizado en \LaTeX
+\end{titlepage}
+
+\begin{abstract}
+\end{abstract}
+\newpage
+\thispagestyle{empty}
+\tableofcontents{}
+\newpage
+\thispagestyle{empty}
+\listoffigures
+\newpage
+\addcontentsline{toc}{section}{Introducción.}
+\newpage
+
+\section{Introducción.}
+\newpage
+\section{La computadora y los lenguajes de programación.}
+	\subsection{La computadora}
+		\subsubsection{Breve historia del origen de la computadora.}
+		\subsubsection{Arquitectura de la computadora.}
+	\subsection{El procesador.}
+		\subsubsection{Lenguaje Ensamblador.}
+	\subsection{Lenguajes de programación.}
+\newpage	
+\section{Teoría de la computación.}
+	 \subsection{Matemáticas.}
+	 \subsection{Autómata Finito.}
+	 \subsection{Lenguajes regulares y gramáticas regulares.}
+	 \subsection{Propiedades lenguajes regulares.}
+	 \subsection{Lenguajes libres de contexto.}
+	 \subsection{Autómata de pila.}
+	 \subsection{Propiedades de los lenguajes libres de contexto.}
+\newpage
+\section{Compiladores.}
+	\subsection{Estructura de un compilador}
+		\subsubsection{Analizador Léxico.}
+		\subsubsection{Analizador Sintáctico.}
+		\subsubsection{Analizador Semántico.}
+		\subsubsection{Generación de código.}
+		
+\newpage
+\section{Programando un compilador.}
+
+%\bibliographystyle{plain}
+%\bibliography{biblio.bib}
+\end{document}
+

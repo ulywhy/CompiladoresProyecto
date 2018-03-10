@@ -1,0 +1,24 @@
+\BOOKMARK [1][-]{Doc-Start}{Introducci\363n.}{}% 1
+\BOOKMARK [1][-]{section.1}{Introducci\363n.}{}% 2
+\BOOKMARK [1][-]{section.2}{La computadora y los lenguajes de programaci\363n.}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{La computadora}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Breve historia del origen de la computadora.}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Arquitectura de la computadora.}{subsection.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.2}{El procesador.}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Lenguaje Ensamblador.}{subsection.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Lenguajes de programaci\363n.}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Teor\355a de la computaci\363n.}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Matem\341ticas.}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Aut\363mata Finito.}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Lenguajes regulares y gram\341ticas regulares.}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Propiedades lenguajes regulares.}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.5}{Lenguajes libres de contexto.}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.6}{Aut\363mata de pila.}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.7}{Propiedades de los lenguajes libres de contexto.}{section.3}% 17
+\BOOKMARK [1][-]{section.4}{Compiladores.}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{Estructura de un compilador}{section.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Analizador L\351xico.}{subsection.4.1}% 20
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Analizador Sint\341ctico.}{subsection.4.1}% 21
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Analizador Sem\341ntico.}{subsection.4.1}% 22
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Generaci\363n de c\363digo.}{subsection.4.1}% 23
+\BOOKMARK [1][-]{section.5}{Programando un compilador.}{}% 24
